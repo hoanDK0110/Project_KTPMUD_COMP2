@@ -1,0 +1,78 @@
+.container-layout{
+    padding: 12px;
+}
+
+a:hover,a:focus {
+	text-decoration: none !important;
+	outline: none !important;
+	color: #000;
+}
+a{
+    color: #000;
+}
+.cart-product-info{
+    
+    display: grid;
+    grid-template-columns: 130px 80%;
+}
+.cart-product-info-img{
+    width: 120px;
+    height: auto;
+}
+.cart-product-info-name{
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.cart-quantity{
+    width: 50px;
+}
+.cart-product-delete{
+    font-size: 20px;
+}
+/*Infor customer*/
+.cart-info-customer-pay-title{
+    background-color: #f4f4f4;
+    width: 550px;
+    padding: 10px;
+    font-size: 26px !important;
+    font-weight: 800px;
+    border-radius: 10px;
+    text-align: center;
+} 
+.cart-info-total{
+    display: flex;
+}
+.cart-info-customer-pay-content-form{
+    display: block;
+    width: 400px !important;
+    padding: 0.375rem 0.75em;
+    margin:0px 0px 6px 12px;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: large;
+}
+.cart-total-price{
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: #f4f4f4 solid 2px;
+}
+.cart-total-price-content{
+    padding-top: 10px;
+}
+.cart-total-price-content span{
+    font-size: 18px;
+    line-height: 30px;
+}
+.oder{
+    width: 470px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 50px;
+    margin-left: 40px;
+}

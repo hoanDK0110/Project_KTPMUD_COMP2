@@ -1,0 +1,303 @@
+
+/*----------------------------------------*/
+/* Template default CSS
+/*----------------------------------------*/
+
+html,body {
+	height: 100%;
+	font-family: "Mulish", sans-serif;
+	-webkit-font-smoothing: antialiased;
+    background-color: #f4f4f4 !important;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	color: #111111;
+	font-weight: 400;
+	font-family: "Mulish", sans-serif;
+}
+
+h1 {
+	font-size: 70px;
+    font-family: "Mulish", sans-serif;
+}
+
+h2 {
+	font-size: 36px;
+    font-family: "Mulish", sans-serif;
+}
+
+h3 {
+	font-size: 30px;
+    font-family: "Mulish", sans-serif;
+}
+
+h4 {
+	font-size: 24px;
+    font-family: "Mulish", sans-serif;
+}
+
+h5 {
+	font-size: 18px;
+    font-family: "Mulish", sans-serif;
+}
+
+h6 {
+	font-size: 16px;
+    font-family: "Mulish", sans-serif;
+}
+p {
+	font-size: 16px;
+	font-family: "Mulish", sans-serif;
+	color: black;
+	font-weight: 400;
+	line-height: 26px;
+	margin: 0 0 15px 0;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+a:hover,a:focus {
+	text-decoration: none !important;
+	outline: none !important;
+	color: #fff;
+}
+ul,ol {
+	padding: 0;
+	margin: 0;
+    list-style: none;
+}
+img {
+	max-width: 100%;
+}
+
+/*----------------------------------------*/
+/* Default
+/*----------------------------------------*/
+.container-layout{
+    max-width: 1200px !important;
+    height: auto;
+    margin: 16px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.controll{
+    margin:20px 0px 20px 150px;
+    max-width: 1180px;
+}
+.title{
+    height: 70px;
+    padding: 20px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+
+.controll h5 a{
+    color: #111;
+}
+.controll h5 a:hover{
+    color: #0F5B9A;
+}
+
+.form-control{
+    display: block;
+    width: 480px !important;
+    padding: 0.375rem 0.75em;
+    margin:0px 0px 6px 12px;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: large;
+}
+.form-control:onclick{
+    border: #007bff;
+}
+.error {
+    color: #FF0000;
+}
+.registor-content-submit{
+    background:#4267b2; text-transform:uppercase; font-size:18px; 
+    font-weight:bold; 
+    padding:10px 20px; 
+    color:#fff; 
+    border:none; 
+    margin: 5px;
+}
+/*----------------------------------------*/
+/* Header
+/*----------------------------------------*/
+.header{
+    width: 1492px;
+    height: 178px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+}
+.header-row-1{
+    width: 100%;
+    height: 44px;
+    background-color: #0F5B9A;
+    padding-top: 6px;
+}
+.header-row-1-content{
+    width: 1200px;
+    height: 32px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 700px 500px;
+
+}
+.header-row-1-content-1 ul{
+    height: 32px;
+    display: flex;
+}
+.header-row-1-content-1 ul li{
+    padding: 2px 6px;
+    margin-right: 10px;
+    background-color: #FF9F00;
+    border-radius: 16px;
+}
+.header-row-1-content-2{
+    padding-left: 250px;
+}
+.header-row-2{
+    width: 100%;
+    height: 134px;
+    background-color: #FFFFFF;
+}
+.header-row-2-content{
+    width: 1200px;
+    height: 134px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 120px 550px 90px 90px 60px;
+    grid-column-gap: 50px;
+
+}
+.header-row-2-content-1 a{
+    height: 114px;
+    font-size: 114px;
+    color: #0F5B9A;
+    margin-top: -20px;
+    position: absolute;
+}
+.header-row-2-content-1 a:hover{
+    color: rgb(0, 123, 255);
+}
+.header-row-2-content-2 form{
+    display: flex;
+    margin-top: 38px;
+    position: absolute;
+}
+.header-row-2-content-2 form input{
+    width: 437px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 10px 0 0 10px;
+    overflow: visible;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+.header-row-2-content-2 form button{
+    height: 60px;
+    width: 70px;
+    background-color: #FF9F00;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header-row-2-content-2 form button i{
+    font-size: 25px;
+}
+.header-row-2-content-3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.header-row-2-content-3-boder i {
+    font-size: 50px;
+    color: rgb(15,91,154);
+}
+.header-row-2-content-3-boder i:hover{
+    color: rgb(0, 123, 255);
+}
+/*----------------------------------------*/
+/* Home product
+/*----------------------------------------*/
+
+
+.home-product{
+    padding-bottom: 16px;
+}
+.home-product-title{
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 25px 15px;
+}
+.home-product-title p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+}
+.home-product-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-product-content-item{
+    height: 420px !important;
+    padding: 5px 12px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 3px rgb(235,233,233);
+}
+.home-product-content-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home-product-content-item img{ 
+    width: 244px;
+    max-height: 244px;
+    object-fit: contain;
+}
+.home-product-content-item card img{
+    width: 100%;
+    transition: all 3s ease;
+}
+.home-product-content-item:hover img{
+    transform: translateY(-5px);
+}
+
+.card-text{
+    height: 60px;
+    width: 250px;
+    margin-left: -15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 20px;
+}
+.card-text:hover{
+    color: #0F5B9A;
+    font-weight: 700;
+}
+.home-product-content-item-price{
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.add-to-cart{
+    margin-left: 20px;
+}
+/*----------------------------------------*/
+/* Home product
+/*----------------------------------------*/
+

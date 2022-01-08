@@ -1,0 +1,77 @@
+.detail-product-name{
+    padding: 14px 10px 0px 15px;
+    
+}
+.detail-product-name h2{
+    font-weight: 600;
+}
+.detail-content{ 
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
+
+.detail-content-right-infor h5{
+    font-size: 22px;
+}
+.detail-content-right-infor ul{
+    list-style: disc;
+    padding-left: 50px;
+}
+.detail-content-right-infor-name{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.detail-content-right-infor-value{
+    font-size: 20px;
+}
+.detail-content-right-infor-value.warranty{
+    color: #DD1313;
+}
+.detail-content-right-infor-value.condition{
+    color: #13DD64;
+}
+.detail-content-right-price{
+    padding: 10px;
+    border: 1px dashed #0F5B9A;
+    background-color: #f7f9fb;
+    border-radius: 10px;
+    width: 470px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.detail-content-right-price-value.count{
+    font-size: 20px;
+    text-decoration: line-through; 
+    font-weight: 500;
+}
+.detail-content-right-price-value.discount{
+    font-size: 20px;
+    color: #0F5B9A;
+}
+.detail-content-right-price-value.discount > span{
+    font-size:14px;
+}
+
+.nav-link h4{
+    font-weight: 700;
+}
+.oder{
+    width: 470px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.add-to-cart{
+    width: 470px;
+    margin-bottom: 10px;
+}
+.detail-content-left{
+    width:100%;
+    height: 530px;
+}
+.carousel-inner{
+    width: 85%;
+    margin:auto;
+}
